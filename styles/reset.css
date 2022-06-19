@@ -1,4 +1,24 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #F5FBF2;
+}
+
+body {
+    background-color: #1C121F;
+    font-family: 'Work Sans';
+    color: #F5FBF2;
+}
+
+h1, h2 {
+    font-family: 'Oxanium';
 }

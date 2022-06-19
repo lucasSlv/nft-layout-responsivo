@@ -1,11 +1,103 @@
-html, body {
-    height: 100%;
+.initial-banner {
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.overlay {
+    position: absolute;
+    z-index: -1;
+    width: 44%;
+    height: 105vh;
+    right: 0;
+    top: 0;
+    background: rgba(79, 70, 78, 0.45);
+    backdrop-filter: blur(30px);
+}
+
+
+#left-content {
+    max-width: 710px;
+    display: flex;
+    flex-direction: column;
+}
+
+#left-content h1 {
+    font-family: 'Oxanium';
+    font-size: 85px;
+    line-height: 130px;
+    color: #f5fbf2;
+}
+
+#left-content a {
+    color: #FFCE4E;
+}
+
+
+.initial-banner #left-content .buttons {
+    display: flex;
+    gap: 48px;
+    margin-top: 60px;
+}
+
+.initial-banner #left-content .buttons .btn-primary {
+    background: #FFCE4E;
+    font-weight: 600;
+    font-size: 28px;
+    color: #000000;
+    padding: 24px 76px;
+}
+
+
+.initial-banner #left-content .buttons .btn-secondary {
+    background: rgba(233, 215, 167, 0.1);
+    font-weight: 600;
+    font-size: 28px;
+    color:  #FFFFFF;
+    padding: 24px 76px;
+    border: 1px solid #FFCE4E;
+}
+
+.rigth-content {
+    max-width: 566px;
+}
+
+.rigth-content img {
     width: 100%;
 }
 
-#page {
-    height: 100%;
-    width: 100%;
-    background-color: #232326;
+
+ .advertising {
     display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 203px 0;
+    flex-wrap: wrap;
+    max-width: 90%;
+    gap: 137px;
+}
+
+.c-feedbacks {
+    display: flex;
+    gap: 103px;
+    margin-top: 90px;
+}
+
+.c-feedbacks .feedback {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.c-feedbacks .feedback .number {
+    font-family: 'Oxanium';
+    font-size: 62px;
+    font-weight: 700;
+}
+
+.c-feedbacks .feedback .text {
+    font-size: 24px;
+    color: #9B9E9A;
 }
