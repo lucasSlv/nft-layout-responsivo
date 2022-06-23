@@ -71,4 +71,28 @@
         width: 95px;
         height: 21px;
     }
+
+    footer {
+        padding: 57px 16px 11px;
+        flex-wrap: wrap;
+    }
+    
+    footer .nav-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        align-self: center;
+        margin-bottom: 44px;
+    }
+
+    .redes-sociais {
+        justify-content: center;
+        
+    }
 }
+
