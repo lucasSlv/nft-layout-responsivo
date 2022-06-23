@@ -1,0 +1,74 @@
+@media (max-width: 1340px) {
+    #header {
+        display: none;
+    }
+
+    #menu-hamburger .c-img img {
+        width: 48px;
+        height: 48px;
+    }
+    
+    #menu-hamburger {
+        display: block;
+    }
+
+    #menuToggle {
+        display: block; 
+    }
+}
+
+@media (max-width: 1138px) {
+    #c-banner {
+        flex-direction: column;
+    }
+    
+    #left-content .title {
+        font-size: 42px;
+        line-height: 63px;
+        text-align: center;
+    }
+    
+    #initial-banner #left-content .buttons {
+        margin-top: 56px;
+        gap: 20px;
+    }
+
+    #initial-banner #left-content .buttons .btn-primary {
+        font-size: 18px;
+        padding: 16px 41px;
+    }
+
+    #initial-banner #left-content .buttons .btn-secondary {
+        font-size: 18px;
+        padding: 16px 41px;
+    }
+    
+    #right-content {
+        margin-top: 50px;
+        width: 282px;
+        height: 300px;
+    }
+
+    .baseboard-image {
+        width: 282px;
+        height: 82px;
+    }
+
+    .c-feedbacks {
+        gap: 39px;
+    }
+
+    .c-feedbacks .feedback .number {
+        font-family: 'Oxanium';
+        font-size: 36px;
+    }
+
+    .c-feedbacks .feedback .text {
+        font-size: 16px;
+    }
+
+    .advertising img {
+        width: 95px;
+        height: 21px;
+    }
+}

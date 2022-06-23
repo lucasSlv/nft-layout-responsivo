@@ -1,9 +1,9 @@
 #header {
-    display: flex; 
-    justify-content: space-between;
-    max-width: 90%;
-    margin: 0 auto;
-    margin-top: 54px;
+  display: flex; 
+  justify-content: space-between;
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 54px;
 }
 
 #header .c-img img {
@@ -59,4 +59,22 @@ nav .btn-header {
 
 .link:hover {
     color: #FFCE4E;
+}
+
+
+#menu-hamburger{
+    display: none; 
+    justify-content: space-between;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 54px;
+}
+
+#menu-hamburger .c-img img {
+  width: 66px;
+  height: 66px;
+}
+
+#menu-hamburger .c-img {
+  flex: 1;
 }

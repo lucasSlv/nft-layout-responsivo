@@ -10,14 +10,14 @@
     <link rel="stylesheet" href="/styles/header.css" />
     <link rel="stylesheet" href="/styles/main.css" />
     <link rel="stylesheet" href="/styles/footer.css" />
+    <link rel="stylesheet" href="/styles/responsive.css" />
 </head>
 <body>
-    <div class="overlay"></div>
     <header id="header">
             <div class="c-img">
                 <img src="/assets/logo/logo-icon.png" /> 
             </div>    
-            <nav>
+            <nav id="navigation">
                 <ul class="list-container">
                     <div class="active">
                         <a href="" class="link">Explore</a>
@@ -31,39 +31,65 @@
                 </ul>
                 <a href="" class="btn-header">Connect Wallet</a>
             </nav>
-    </header>    
+    </header>
+    <div id="menu-hamburger">
+        <div class="c-img">
+            <img src="/assets/logo/logo-icon.png" /> 
+        </div>
+    </div>   
         <main>
-            <section class="initial-banner">
-                <div id="left-content">
-                    <h1> Explore, Buy and Sell the <a href="#"> Best NFTs! </a> </h1>
-                    <div class="buttons">
-                        <a href="" class="btn-primary">Explore</a>
-                        <a href="" class="btn-secondary">Create</a>
-                    </div>
-                    <div class="c-feedbacks">
-                        <div class="feedback">
-                            <span class="number">32k+</span>
-                            <span class="text">Artworks</span>
+            <section id="initial-banner">
+                <div id="c-banner">
+                    <div id="left-content">
+                        <div class="c-title">
+                            <h1 class="title"> Explore, Buy and Sell the <a href="#"> Best NFTs! </a> </h1>
                         </div>
-                        <div class="feedback">
-                            <span class="number">20k+</span>
-                            <span class="text">Auctions</span>
-                        </div>
-                        <div class="feedback">
-                            <span class="number">12k+</span>
-                            <span class="text">Creators</span>
+                        <div class="buttons">
+                            <a href="" class="btn-primary">Explore</a>
+                            <a href="" class="btn-secondary">Create</a>
                         </div>
                     </div>
-                </div>
-                <div id="right-content">
-                    <img src="../assets/highlight/highlight-image.png" />
+                    <div id="right-content">
+                        <div class="container-card">
+                            <div class="highlight-image">
+                                <div>
+                                    <p>Current Bid</p>
+                                    <h4>0.99 ETH</h4>
+                                </div>
+                                <div>
+                                    <p>Ends in+</p>
+                                    <h4>25 hrs</h4>
+                                </div>
+                            </div>
+                            <div class="baseboard-image">
+                                <div>
+                                    <h4>Artist</h4>
+                                    <p>@wzard</p>
+                                </div>       
+                                <div>
+                                    <button id="btn-highlight">Start Bid</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
-            <!-- <section>
-                <div class="highlight-advertising">
-                    <img src="/assets/highlight/highlight-image.png" />
+            <section>
+                <div class="c-feedbacks">
+                    <div class="feedback">
+                        <span class="number">32k+</span>
+                        <span class="text">Artworks</span>
+                    </div>
+                    <div class="feedback">
+                        <span class="number">20k+</span>
+                        <span class="text">Auctions</span>
+                    </div>
+                    <div class="feedback">
+                        <span class="number">12k+</span>
+                        <span class="text">Creators</span>
+                    </div>
                 </div>
-            </section> -->
+            </section>
             <section class="advertising">
                 <img src="../assets/section/coinbase.svg" />
                 <img src="../assets/section/blockchain.svg" />
