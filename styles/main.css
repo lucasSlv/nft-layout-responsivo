@@ -99,21 +99,6 @@
     flex-direction: column;
 }
 
-/* .container-card {
-    margin-top: 125px;
-    width: 558px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-}
-
-.container-card img {
-    width: 456px;
-    height: 630px;
-} */
-
 .highlight-image {
     width: 512px;
     display: flex;

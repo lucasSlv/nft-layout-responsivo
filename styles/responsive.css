@@ -3,16 +3,16 @@
         display: none;
     }
 
-    #menu-hamburger .c-img img {
+    #logo-responsive .c-img img {
         width: 48px;
         height: 48px;
     }
     
-    #menu-hamburger {
+    #logo-responsive {
         display: block;
     }
 
-    #menuToggle {
+    #menu-hamburger {
         display: block; 
     }
 }
