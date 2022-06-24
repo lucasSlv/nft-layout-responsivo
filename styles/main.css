@@ -166,3 +166,113 @@
     margin-right: 39px;
 }
 
+#how-it-works {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-works {
+    padding-top: 100px;
+    padding-bottom: 55px;
+}
+
+.title-works h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    color: #F5FBF2;
+}
+
+.phase {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 110px 132px 174px 132px;
+}
+
+#phase-img {
+    width: 86px;
+    height: 86px;    
+}
+
+.phase div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.phase p {
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFCE4E;
+    padding-top: 15px;
+}
+
+.lines {
+    width: 90px;
+    height: 7px;
+}
+
+
+#subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 117px 0;
+    background: linear-gradient(179.78deg, #1C121F 9.98%, rgba(28, 18, 31, 0.21) 81.39%), url(../assets/section/background-subscribe.png);
+    background-blend-mode: normal, color-dodge;
+    background-size: cover;
+}
+
+.title-subscribe {
+    padding-top: 80px;
+}
+
+.title-subscribe h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 130px;
+    text-align: center;
+    color: #F5FBF2;
+}
+
+.input-subscribe {
+    display: flex;
+    width: 680px;
+    height: 96px;
+    border: 1px solid #E7B226;
+    gap: 24px;
+}
+
+.input-subscribe input {
+    flex: 1;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #A48EA9;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 0 56px;
+}
+
+.input-subscribe button {
+    font-family: Work Sans;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    width: 244px;
+    height: 96px;
+    border: none;
+    background: #E7B226;
+}
