@@ -138,8 +138,111 @@
         margin-bottom: 44px;
     }
 
+    .container-footer > img {
+        width: 112px;
+        height: 112px;
+    }
+
     .redes-sociais {
         justify-content: center;
         
+    }
+
+    #btn-view-all {
+        font-size: 18px;
+        padding: 13px 50px;
+    }
+
+    .top-creators {
+        background-image: url("../assets/Pattern.png");
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: contain;
+    }
+
+    .creators-titulo {
+        align-self: center;
+        font-size: 28px;
+        line-height: 60px; 
+        margin: 75px auto;
+    }
+
+    .creators-titulo::before {
+        width: 70px;
+        height: 70px;
+    }
+
+    .creators-conteudo {
+        gap: 48px;
+        margin: 0;
+        width: 100%;
+    }
+
+    .creator-profile {
+        padding: 20px 0;
+        max-width: 100%;
+        height: auto;
+        margin: 0 16px;
+    }
+
+    .creator-profile > div > img {
+        margin-left: 12px;
+    }
+
+    .creator-profile > div > div >h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .creator-profile > div > div > p {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .creator-profile > div >h2 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .creator-profile > div > p {
+        font-size: 18px;
+        line-height: 35px;
+    }
+}
+
+@media (max-width: 480px){
+    #btn-place {
+        top: 50%;
+        left: 10%;
+        padding: 10px 25px;
+    }
+
+    .creator-profile > div > img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .creator-profile > div:last-child {
+        padding:  5px 25px;
+    }
+
+    .creator-profile > div > div >h2 {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .creator-profile > div > div > p {
+        font-size: 15px;
+        line-height: 35px;
+    }
+
+    .creator-profile > div >h2 {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .creator-profile > div > p {
+        font-size: 16px;
+        line-height: 35px;
     }
 }
